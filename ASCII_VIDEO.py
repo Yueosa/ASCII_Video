@@ -60,6 +60,16 @@ def image_to_ascii(image_path, width=100):
     return "\n".join(ascii_lines)  # 返回完整的ASCII艺术
 
 
+def get_numeric_part(filename):
+    """
+    从文件名中提取数字部分，用于排序
+    :param filename: 文件名
+    :return: 提取的数字部分
+    """
+    match = re.search(r'(\d+)', filename)
+    return int(match.group(0)) if match else -1
+
+
 def convert_frames_to_ascii(input_dir, output_dir, width=100):
     """
     将指定目录下的所有帧文件(图片)转换为ASCII艺术并保存为文本文件
