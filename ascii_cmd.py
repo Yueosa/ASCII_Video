@@ -34,6 +34,7 @@ def play_ascii_frames(ascii_dir, frame_delay=0.016):
         time.sleep(frame_delay)
 
 
+# 主程序
 if __name__ == "__main__":
     ascii_dir = "./ascii_frames"
     play_ascii_frames(ascii_dir)
