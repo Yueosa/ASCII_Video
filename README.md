@@ -33,7 +33,7 @@
     pip install opencv-python pillow tqdm
     ```
 
-## 使用
+## 代码说明
 
 ### 步骤 1: 提取视频帧
 
@@ -69,6 +69,21 @@ play_ascii_frames(ascii_dir, frame_delay=0.016):
     播放ASCII艺术帧文件，按数字顺序读取并显示
     :param ascii_dir: 存放ASCII帧的目录
     :param frame_delay: 帧与帧之间的延迟，控制播放速度
+```
+
+## 使用
+### 1. 准备视频文件
+
+将视频文件放到 `video` 目录下（重命名为 `video.mp4`）。
+### 2. 运行 `ASCII_VIDEO.py` 脚本：
+```bash
+python ASCII_VIDEO.py
+```
+等待程序运行完成。
+
+### 3. 播放 ASCII 艺术
+```bash
+python ascii_cmd.py
 ```
 
 ## 项目结构
