@@ -114,3 +114,4 @@ if __name__ == "__main__":
     convert_frames_to_ascii(frames_dir, ascii_dir, width=100)
 
     shutil.rmtree(frames_dir)
+    # 删除中间文件
