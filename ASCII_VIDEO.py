@@ -105,11 +105,11 @@ def convert_frames_to_ascii(input_dir, output_dir, width=100):
 
 
 if __name__ == "__main__":
-    # video_path = "./video/video.mp4"
+    video_path = "./video/video.mp4"
     frames_dir = "./frames" 
-    # ascii_dir = "./ascii_frames"
+    ascii_dir = "./ascii_frames"
 
-    # extract_frames(video_path, frames_dir)
+    extract_frames(video_path, frames_dir)
     
     convert_frames_to_ascii(frames_dir, ascii_dir, width=100)
 
