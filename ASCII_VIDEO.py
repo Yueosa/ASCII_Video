@@ -5,6 +5,7 @@ import sys
 import re
 from PIL import Image
 from tqdm import tqdm
+import shutil
 
 
 # ASCII字符集
@@ -111,3 +112,5 @@ if __name__ == "__main__":
     extract_frames(video_path, frames_dir)
     
     convert_frames_to_ascii(frames_dir, ascii_dir, width=100)
+
+    shutil.rmtree(frames_dir)
