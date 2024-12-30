@@ -111,6 +111,6 @@ if __name__ == "__main__":
 
     # extract_frames(video_path, frames_dir)
     
-    # convert_frames_to_ascii(frames_dir, ascii_dir, width=100)
+    convert_frames_to_ascii(frames_dir, ascii_dir, width=100)
 
     shutil.rmtree(frames_dir)
