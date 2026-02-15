@@ -33,6 +33,12 @@
     pip install opencv-python pillow tqdm
     ```
 
+4. 或使用 uv 管理器
+    ```
+    bash
+    uv sync
+    ```
+
 ## 代码说明
 
 ### 步骤 1: 提取视频帧
